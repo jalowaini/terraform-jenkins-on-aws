@@ -1,0 +1,18 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.backup
+*.log
+
+# Local environment
+*.tfvars
+*.pem
+*.key
+*.pub
+
+# OS & Editor
+.DS_Store
+.idea/
+.vscode/
